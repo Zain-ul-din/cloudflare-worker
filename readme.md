@@ -72,6 +72,12 @@ check more at,
 - [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [Pre-flight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
 
+### AI Gateway
+
+To create AI gateway head over to cloudflare dashboard and create new AI gateway by going to AI tab. They will give us a end point that we can use as a `baseURL` to make calls to OpenAI APIs.
+
+see more at [here](https://developers.cloudflare.com/ai-gateway/).
+
 ### Appendix
 
 - [Secrets](https://developers.cloudflare.com/workers/configuration/secrets/#secrets-in-development)
