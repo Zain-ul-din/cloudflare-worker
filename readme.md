@@ -82,3 +82,5 @@ see more at [here](https://developers.cloudflare.com/ai-gateway/).
 
 - [Secrets](https://developers.cloudflare.com/workers/configuration/secrets/#secrets-in-development)
 - [OpenAI Worker](https://developers.cloudflare.com/ai-gateway/tutorials/deploy-aig-worker/#3-configure-openai-in-your-worker)
+- [Worker Blog](https://blog.cloudflare.com/improved-quick-edit)
+- [CloudFlare Workers](https://developers.cloudflare.com/workers/)
