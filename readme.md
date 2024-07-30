@@ -54,6 +54,24 @@ npx wrangler deploy
 
 first time it can take sometime maybe 5 - 10 min to initialize route.
 
+### Enabling CORS
+
+send following fields with response header to tell browser allow CORS.
+
+```js
+const corsHeaders = {
+	'Access-Control-Allow-Origin': '*',
+	'Access-Control-Allow-Methods': 'POST, OPTIONS',
+	'Access-Control-Allow-Headers': 'Content-Type',
+};
+```
+
+check more at,
+
+- [OPTIONS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
+- [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [Pre-flight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
+
 ### Appendix
 
 - [Secrets](https://developers.cloudflare.com/workers/configuration/secrets/#secrets-in-development)
