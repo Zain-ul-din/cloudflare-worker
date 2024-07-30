@@ -51,3 +51,5 @@ to deploy run,
 ```bash
 npx wrangler deploy
 ```
+
+first time it can take sometime maybe 5 - 10 min to initialize route.
