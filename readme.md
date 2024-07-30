@@ -53,3 +53,8 @@ npx wrangler deploy
 ```
 
 first time it can take sometime maybe 5 - 10 min to initialize route.
+
+### Appendix
+
+- [Secrets](https://developers.cloudflare.com/workers/configuration/secrets/#secrets-in-development)
+- [OpenAI Worker](https://developers.cloudflare.com/ai-gateway/tutorials/deploy-aig-worker/#3-configure-openai-in-your-worker)
